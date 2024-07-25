@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#linediv {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 75%;
+  transform: translate(0, -75%);
+  border-top: #fff;
+  border-bottom: #fff;
+  border-style: double;
+  z-index: 99;
+}
+
+#linediv:hover {
+  background-color: rgba(191, 165, 144, 0.295);
+}
+
+h3{
+  color: #CBF7ED;
+  border-color: #161925 16px;
+}
+
+#element,
+#maji,
+#hayi_maji {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: 600;
+  /* position: relative; */
+  color: #8EA8C3;
+  /* transform: translate(0, -50%) */
+}
+
+#maji {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#hayi_maji {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+#left {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  background-color: #161925;
+}
+
+#text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: rgb(175, 174, 175);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-weight: 50px; */
+  font-size: 50px;
+  z-index: 99;
+}
+
+#elle:hover {
+  color: rgb(68, 85, 93);
+  -webkit-text-stroke: 2px rgb(156, 158, 149);
+}
+
+#sweden:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(156, 158, 149);
+}
+
+#lbtm {
+  position: absolute;
+  bottom: 5%;
+  left: 7%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: rgb(181, 180, 178);
+  z-index: 99;
+}
+
+#center {
+  position:relative;
+  width: 50%;
+  height: 100%;
+  /* background-color: tomato; */
+  background: url(https://images.unsplash.com/photo-1712107652794-d5c669f5f8d2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  /* background-position: center; */
+}
+
+#c1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  top: 22%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  color: rgb(186, 179, 180);
+  background-color: #406E8E;
+
+  /* border-top: #fff; */
+  border-style: double;
+  border-radius: 50%;
+}
+#c1:hover{
+  background-color: rgba(119, 122, 68, 0.644);
+}
+
+#search{
+  position: absolute;
+  top: 21%;
+  right: 17%;
+  font-size: 19px;
+  color: rgb(186, 179, 180);
+}
+
+#star, #fashion{
+  position: absolute;
+  bottom: 4%;
+  left: 2%;
+  color: rgb(156,158,149);
+  font-size: 50px;
+}
+
+#star{
+  bottom: 4%;
+  left: 0px;
+  transform: translate(-50%,-50%);
+} 
+
+/* curser_pointer */
+/* #dhjadh:hover {
+  background-color: ;
+  color: transparent -webkite-text-stroke 2px white;
+} */
+
+#right {
+  position:relative;
+  width: 20%;
+  height: 100%;
+  background-color: mediumseagreen;
+}
+
+#rtp {
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  top: 0px;
+  background-image: url(https://images.unsplash.com/photo-1712107653021-85704d15ce36?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+#rtbm {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  bottom: 0px;
+  /* color: rgb(191, 180, 166); */
+  background-color: #23395B;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-weight: 100px; */
+  /* font-size: 200px; */
+  /* top: 90%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+#rtbm:hover{
+  background: rgb(191,180,166);
+}
+
+#rtbm h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  color: rgb(20,29,29);
+}
+
+#brand, #product, #about_us{
+  position: absolute;
+  left: 11%;
+  top: 5%;
+  z-index: 99;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 17px;
+  color: rgb(4, 4, 68)
+}
+/* #rtbm h1:hover{
+  color: rgb(68,85,93);
+} */
